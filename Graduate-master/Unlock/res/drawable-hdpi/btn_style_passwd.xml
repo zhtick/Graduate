@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <gradient android:startColor="#ffa6a6a6" android:endColor="#ffa6a6a6" android:angle="270.0" />
+            <code class="comments">//颜色渐变</code>
+            <stroke android:width="1.0dip" android:color="#ff76c493" />
+            <code class="comments">//按钮边缘</code>
+            <padding android:left="10.0dip" android:top="10.0dip" android:right="10.0dip" android:bottom="10.0dip" />
+            <code class="comments">//按钮文字和边缘距离(内边距)</code>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient android:startColor="#fff2f2f2" android:endColor="#fff2f2f2" android:angle="270.0" />
+            <stroke android:width="1.0dip" android:color="#ff76c493" />
+            <padding android:left="10.0dip" android:top="10.0dip" android:right="10.0dip" android:bottom="10.0dip" />
+        </shape>
+    </item>
+</selector>

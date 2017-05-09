@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="4.0">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0pt" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="数字解锁" android:layout_weight="1.0" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@+id/passwd_unlock_show" android:layout_width="wrap_content" android:layout_height="20.0dip" android:src="@drawable/passwd0" android:scaleType="centerInside" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:gravity="center" android:id="@+id/text_unlock_passwd_tip" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:id="@+id/btn_unlock_num_1" android:background="@drawable/btn_style_passwd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="1" android:layout_weight="1.0" />
+            <Button android:id="@+id/btn_unlock_num_2" android:background="@drawable/btn_style_passwd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="2" android:layout_weight="1.0" />
+            <Button android:id="@+id/btn_unlock_num_3" android:background="@drawable/btn_style_passwd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="3" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:id="@+id/btn_unlock_num_4" android:background="@drawable/btn_style_passwd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="4" android:layout_weight="1.0" />
+            <Button android:id="@+id/btn_unlock_num_5" android:background="@drawable/btn_style_passwd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="5" android:layout_weight="1.0" />
+            <Button android:id="@+id/btn_unlock_num_6" android:background="@drawable/btn_style_passwd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="6" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:id="@+id/btn_unlock_num_7" android:background="@drawable/btn_style_passwd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="7" android:layout_weight="1.0" />
+            <Button android:id="@+id/btn_unlock_num_8" android:background="@drawable/btn_style_passwd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="8" android:layout_weight="1.0" />
+            <Button android:id="@+id/btn_unlock_num_9" android:background="@drawable/btn_style_passwd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="9" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:id="@+id/btn_unlock_clear" android:background="@drawable/btn_style_passwd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="清除" android:layout_weight="1.0" />
+            <Button android:id="@+id/btn_unlock_num_0" android:background="@drawable/btn_style_passwd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="0" android:layout_weight="1.0" />
+            <Button android:id="@+id/btn_unlock_back" android:background="@drawable/btn_style_passwd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="返回" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

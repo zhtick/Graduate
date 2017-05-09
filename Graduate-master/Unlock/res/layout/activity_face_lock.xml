@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="2.0"
+        android:orientation="vertical" >
+
+        <SurfaceView
+            android:id="@+id/camera"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="4.0" />
+
+        <TextView
+            android:id="@+id/text_input_tip"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/text_style" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imgview_unlock_face"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="3.0"
+            android:background="@drawable/img_preview_style" />
+
+        <Button
+            android:id="@+id/btn_preview"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_style_passwd"
+            android:onClick="btn_unlock"
+            android:text="识别解锁" />
+
+        <Button
+            android:id="@+id/btn_digital"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_style_passwd"
+            android:onClick="btn_digital_unlock"
+            android:text="数字解锁" />
+    </LinearLayout>
+
+</LinearLayout>

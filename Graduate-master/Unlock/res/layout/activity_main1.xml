@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:background="@drawable/main1" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true" 
+        android:layout_centerHorizontal="true">
+        <Button 
+            android:id="@+id/register" 
+            android:background="@drawable/button_style" 
+            android:layout_width="80.0dip" 
+            android:layout_height="80.0dip" 
+            android:text="用户注册"/>
+        <ImageView 
+            android:id="@+id/line1" 
+            android:layout_width="30.0dip" 
+            android:layout_height="80.0dip" 
+            android:src="@drawable/line" />
+        <Button 
+            android:id="@+id/pwdLogin" 
+            android:background="@drawable/button_style" 
+            android:layout_width="80.0dip" 
+            android:layout_height="80.0dip" 
+            android:text="密码登录"/>
+        <ImageView 
+            android:id="@+id/line2" 
+            android:layout_width="30.0dip" 
+            android:layout_height="80.0dip" 
+            android:src="@drawable/line" />
+        <Button 
+            android:id="@+id/faceLogin" 
+            android:background="@drawable/button_style" 
+            android:layout_width="80.0dip" 
+            android:layout_height="80.0dip" 
+            android:text="人脸登录"/>
+        
+    </LinearLayout>
+</RelativeLayout>
