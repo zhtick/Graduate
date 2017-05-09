@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0">
+        <org.opencv.android.JavaCameraView android:id="@+id/camera_view_unlock" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0" />
+        <TextView android:id="@+id/text_unlock_tip" android:background="@drawable/text_style" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@+id/imgview_unlock_face" android:background="@drawable/img_preview_style" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0" />
+        <Button android:id="@+id/btn_unlock" android:background="@drawable/btn_style_passwd" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="识别解锁" android:layout_weight="1.0" android:onClick="btn_unlock" />
+        <Button android:id="@+id/btn_digital_unlock" android:background="@drawable/btn_style_passwd" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="数字解锁" android:layout_weight="1.0" android:onClick="btn_digital_unlock" />
+    </LinearLayout>
+</LinearLayout>
